@@ -95,7 +95,7 @@ def generate_slab(face,structure,bulkdims,dims,vac):
         f.close()
 
     print(" 5. {} {} surface slab of dims {} completed".format(lattice,face,slabdims))
-    print(" ---------------------- procedure complete ------------------------")
+    print(" ---------------------- procedure complete -----------------------")
 
 
 print("\n |--------------------------- Welcome ---------------------------|")
@@ -117,10 +117,10 @@ lattice = input(" 2. lattice geometry of bulk: ")
 bulkdims = np.asarray(input(" 3. if bulk structure is a supercell\n    provide the supercell dimensions* (x y z): ").split(),dtype=int)
 slabdims = np.asarray(input(" 4. surface slab dimensions (x y z): ").split(),dtype=int)
 vacuum = int(input(" 5. vacuum thickness: "))
-print(" ---------------------- procedure initiating ----------------------")
+print(" ---------------------- procedure initiating ---------------------")
 bulkdims = (bulkdims[0],bulkdims[1],bulkdims[2])
 slabdims = (slabdims[0],slabdims[1],slabdims[2])
 
 
 generate_slab(face,lattice,bulkdims,slabdims,vacuum)
-print(" ---------------------- please see POSCAR1 ------------------------")
+print(" ---------------------- please see POSCAR1 -----------------------")

@@ -1,5 +1,6 @@
 ## Dolezal Slab Generator
 **Please make sure you have Atomic Simulation Environment (ASE) installed before trying to use this tool "pip install ase", "conda install -c conda-forge ase", https://github.com/rosswhitfield/ase
+
 Welcome! Here you'll find our slab generating tool, slab-generator.py
 
 Make sure to pull both slab-generator.py and the structures/ directory. To initialize, execute slab-generator.py and follow the prompts, 

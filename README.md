@@ -9,5 +9,5 @@ Make sure to pull both slab-generator.py and the structures/ directory. To initi
 
 ![image](https://user-images.githubusercontent.com/47109396/143624193-dc7d8af7-1c48-421d-9699-0b4bc3cd0d5a.png)
 
-In this example I used a 4x4x4 BCC supercell as the bulk structure and cut out a 3 terminations of the BCC (110) slab with dimensions (3,3,2) and added a vacuum of 20 angstroms
+In this example I used a 4x4x4 BCC supercell as the bulk structure and cut out 3 terminations of the BCC (110) slab with dimensions (3,3,2) and added a vacuum of 20 angstroms
 ### Happy Cutting!
